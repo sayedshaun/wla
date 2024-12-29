@@ -1,6 +1,9 @@
 import streamlit as st
 import base64
 
+# Set the page title
+st.set_page_config(page_title="Water Line Agency", layout="centered")
+
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
@@ -8,9 +11,6 @@ footer {visibility: hidden;}
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-# Set the page title
-st.set_page_config(page_title="Water Line Agency", layout="centered")
 
 # Function to set a background image
 def set_background(image_file):
