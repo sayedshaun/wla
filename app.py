@@ -13,7 +13,7 @@ footer {visibility: hidden;}
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-
+"""
 hide_streamlit_style = """
                 <style>
                 div[data-testid="stToolbar"] {
@@ -46,6 +46,7 @@ hide_streamlit_style = """
                 </style>
                 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+"""
 
 
 # Function to set a background image
