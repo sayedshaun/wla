@@ -52,6 +52,7 @@ def add_logos(logo_image):
 # Add logos
 add_logos("assets/logo.jpg")
 
+st.title("Water Line Agency")
 # Main heading
 title_alignment="""
 <style>
@@ -61,16 +62,6 @@ title_alignment="""
 </style>
 """
 st.markdown(title_alignment, unsafe_allow_html=True)
-
-
-st.markdown(
-    """
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <h1>Water Line Agency</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 
 # Create tabs
