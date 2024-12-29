@@ -63,6 +63,16 @@ title_alignment="""
 st.markdown(title_alignment, unsafe_allow_html=True)
 
 
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <h1>Water Line Agency</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
 # Create tabs
 tabs = st.tabs(["Application", "Our Service", "About Company"])
 
