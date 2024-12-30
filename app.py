@@ -87,12 +87,13 @@ def add_logos(logo_image):
 add_logos("assets/logo.jpg")
 
 st.markdown(
-    "<h2 style='text-align: center;'>Water Line Agency</h2>",
+    "<h1 style='text-align: center; font-size: 36px;'>Water Line Agency</h1>",
     unsafe_allow_html=True
 )
 
 # Create tabs
 tabs = st.tabs(["Application", "Our Service", "About Company", "Contact Us"])
+
 
 
 # Tab 1: Application
