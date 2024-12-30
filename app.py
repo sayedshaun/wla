@@ -87,7 +87,7 @@ def add_logos(logo_image):
 add_logos("assets/logo.jpg")
 
 st.markdown(
-    "<h1 style='text-align: center; font-size: 36px;'>Water Line Agency</h1>",
+    "<h1 style='text-align: center; font-size: 26px;'>Water Line Agency</h1>",
     unsafe_allow_html=True
 )
 
