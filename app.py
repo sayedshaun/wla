@@ -87,26 +87,12 @@ def add_logos(logo_image):
 add_logos("assets/logo.jpg")
 
 st.markdown(
-    "<h1 style='text-align: center;'>Water Line Agency</h1>",
+    "<h2 style='text-align: center;'>Water Line Agency</h2>",
     unsafe_allow_html=True
-)
-
-# Add a container to center-align tabs
-st.markdown(
-    """
-    <style>
-    div[data-testid="stHorizontalBlock"] > div:first-child {
-        display: flex;
-        justify-content: center;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
 )
 
 # Create tabs
 tabs = st.tabs(["Application", "Our Service", "About Company", "Contact Us"])
-
 
 
 # Tab 1: Application
