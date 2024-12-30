@@ -92,7 +92,7 @@ st.markdown(
 )
 
 # Create tabs
-tabs = st.tabs(["Application", "Our Service", "About Company"])
+tabs = st.tabs(["Application", "Our Service", "About Company", "Contact Us"])
 
 # Tab 1: Application
 with tabs[0]:
@@ -164,6 +164,7 @@ with tabs[2]:
         st.image("assets/gm.jpg", caption="GM", use_container_width=True)
 
 
+# Tab 4: Contact Us
 with tabs[3]:
     st.header("Contact Us")
     st.write("If you have any questions, please feel free to reach out to us.")
@@ -174,10 +175,11 @@ with tabs[3]:
         </div>
         <div style="font-size: 18px; color: #f8f8f2;">
             <b>Email:</b>
-                    <a href="mailto:info@waterlineagency.com">info@waterlineagency.com</a>
-                </div>
-                """
-            )
+            <a href="mailto:info@waterlineagency.com">info@waterlineagency.com</a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 
 def add_social_media():
