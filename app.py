@@ -92,7 +92,19 @@ st.markdown(
 )
 
 # Create tabs
+# Add custom CSS to center-align tabs
+st.markdown(
+    """
+    <style>
+    .stTabs [data-baseweb="tab-list"] {
+        justify-content: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 tabs = st.tabs(["Application", "Our Service", "About Company", "Contact Us"])
+
 
 # Tab 1: Application
 with tabs[0]:
