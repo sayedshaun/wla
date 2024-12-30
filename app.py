@@ -164,6 +164,21 @@ with tabs[2]:
         st.image("assets/gm.jpg", caption="GM", use_container_width=True)
 
 
+with tabs[3]:
+    st.header("Contact Us")
+    st.write("If you have any questions, please feel free to reach out to us.")
+    st.markdown(
+        """
+        <div style="font-size: 18px; color: #f8f8f2;">
+            <b>Address:</b> 123, ABC Road, Dhaka, Bangladesh
+        </div>
+        <div style="font-size: 18px; color: #f8f8f2;">
+            <b>Email:</b>
+                    <a href="mailto:info@waterlineagency.com">info@waterlineagency.com</a>
+                </div>
+                """
+            )
+
 
 def add_social_media():
     st.markdown(
