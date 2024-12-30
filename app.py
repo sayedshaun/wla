@@ -91,19 +91,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Create tabs
-# Add custom CSS to center-align tabs
+# Add a container to center-align tabs
 st.markdown(
     """
     <style>
-    .stTabs [data-baseweb="tab-list"] {
+    div[data-testid="stHorizontalBlock"] > div:first-child {
+        display: flex;
         justify-content: center;
     }
     </style>
     """,
     unsafe_allow_html=True,
 )
+
+# Create tabs
 tabs = st.tabs(["Application", "Our Service", "About Company", "Contact Us"])
+
 
 
 # Tab 1: Application
